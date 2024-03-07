@@ -1,0 +1,83 @@
+body{
+    display: flex;
+    background-color: #35374B;
+    align-items: center;
+    font-family: 'Times New Roman';
+    flex-direction: column;
+}
+
+section{
+    position:absolute;
+    top: 10px;
+    margin: 5vh;
+    background-color: #50727B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 90vh;
+    width: 70vh;
+
+}
+
+section h1{
+    margin: 10px;
+    font-size: 6vh;
+    font-family: 'Courier New';
+}
+
+section input.nombres{
+    font-size: 2vh;
+    width: 40vh;
+    border-radius: 5px;
+    border-color: #35374b9e;
+    background-color: #78A083;
+    margin: 30px;
+}
+
+section input.apellidos{
+    font-size: 2vh;
+    width: 40vh;
+    border-radius: 5px;
+    background-color: #78A083;
+    margin: 30px;
+}
+
+section input.email{
+    font-size: 2vh;
+    width: 40vh;
+    border-radius: 5px;
+    background-color: #78A083;
+    margin: 30px;
+}
+
+section input.password{
+    font-size: 2vh;
+    width: 40vh;
+    border-radius: 5px;
+    background-color: #78A083;
+    margin: 30px;
+}
+
+.btns{
+    display: flex;
+}
+
+.btnLogin{
+    font-size: 2vh;
+    border-radius: 5px;
+    background-color: #78A083;
+    height: 3vh;
+    width: 15vh;
+    margin: 30px;
+}
+
+.btnLogOut{
+    font-size: 2vh;
+    border-radius: 5px;
+    background-color: #78A083;
+    height: 3vh;
+    width: 15vh;
+    margin: 30px;
+}
