@@ -1,6 +1,6 @@
 body{
     display: flex;
-    background-color: #35374B;
+    background-color: #78A083;
     align-items: center;
     font-family: 'Times New Roman';
     flex-direction: column;
@@ -9,7 +9,7 @@ body{
 section{
     top: 10px;
     margin: 5vh;
-    background-color: #50727B;
+    background-color: #35374B;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,33 +29,37 @@ section h1{
 section input.nombres{
     font-size: 2vh;
     width: 40vh;
+    height: 4vh;
     border-radius: 5px;
     border-color: #35374b9e;
-    background-color: #78A083;
+    background-color: #6797a3;
     margin: 30px;
 }
 
 section input.apellidos{
     font-size: 2vh;
     width: 40vh;
+    height: 4vh;
     border-radius: 5px;
-    background-color: #78A083;
+    background-color: #6797a3;
     margin: 30px;
 }
 
 section input.email{
     font-size: 2vh;
     width: 40vh;
+    height: 4vh;
     border-radius: 5px;
-    background-color: #78A083;
+    background-color: #6797a3;
     margin: 30px;
 }
 
 section input.password{
     font-size: 2vh;
     width: 40vh;
+    height: 4vh;
     border-radius: 5px;
-    background-color: #78A083;
+    background-color: #6797a3;
     margin: 30px;
 }
 
@@ -66,8 +70,8 @@ section input.password{
 .btnLogin{
     font-size: 2vh;
     border-radius: 5px;
-    background-color: #78A083;
-    height: 3vh;
+    background-color: #6797a3;
+    height: 4vh;
     width: 15vh;
     margin: 30px;
 }
@@ -75,8 +79,8 @@ section input.password{
 .btnLogOut{
     font-size: 2vh;
     border-radius: 5px;
-    background-color: #78A083;
-    height: 3vh;
+    background-color: #6797a3;
+    height: 4vh;
     width: 15vh;
     margin: 30px;
 }
