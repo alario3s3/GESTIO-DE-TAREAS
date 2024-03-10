@@ -70,6 +70,14 @@ section {
     width: 90vh;
 }
 
+.SecionTaks{
+    display: flex;
+    width: 90%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .mostrarTareas{
     display: flex;
     background-color: #344955;
